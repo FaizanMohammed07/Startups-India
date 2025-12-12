@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
-import ProjectsPage from "./pages/ProjectsPage";
 import WritingPage from "./pages/WritingPage";
 import JourneyPage from "./pages/JourneyPage";
 import SpeakerPage from "./pages/SpeakerPage";
@@ -33,7 +32,6 @@ export default function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutPage />} />
-                <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/writing" element={<WritingPage />} />
                 <Route path="/journey" element={<JourneyPage />} />
                 <Route path="/speaker" element={<SpeakerPage />} />
